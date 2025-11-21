@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  --transition: 200ms;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* small helper for smooth theme transitions */
+* {
+  transition: background-color var(--transition), color var(--transition), border-color var(--transition);
+}
