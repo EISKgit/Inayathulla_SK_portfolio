@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --no-history",
     "predeploy": "npm run build"
   },
   "dependencies": {
